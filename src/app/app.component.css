@@ -1,0 +1,55 @@
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  width: 1.5em;
+  height: 1.5em;
+  background-color: #000;
+  /* Add additional styling properties as needed */
+}
+
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+footer {
+  background-color: #424246;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  color: #fff;
+}
